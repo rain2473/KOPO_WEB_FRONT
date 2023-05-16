@@ -10,12 +10,12 @@
 
 <body>
     <h1>회원가입 양식</h1>
-    <fieldset>
+    <fieldset style="display: flex; justify-content: center;">
         <form action="">
             <label for="id">
                 이메일
             </label>
-            <input type="email" name="userid" id="id">
+            <input type="email" name="userid" id="id" placeholder="가입이메일">
             <br>
             <label for="pw">
                 비밀번호
@@ -50,7 +50,8 @@
             <label for="agree">가입동의</label>
             <input type="checkbox" id="agree">
             <br />
-            <input type="button" value="확인" />
+            <input type="submit" value="확인" />
+            <input type="reset" value="초기화" />
         </form>
     </fieldset>
 </body>
