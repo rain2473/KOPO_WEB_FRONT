@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1#0">
+    <title>layout02</title>
+    <style>
+        body{
+            background-color: rgba(0, 0, 128, 0.3);
+        }
+        #wrapper{
+            color: aliceblue;
+            font-size: xx-large;
+            text-transform : uppercase;
+            margin: 0 auto;
+            box-sizing: border-box;
+            max-width: 1000px;
+        }
+        #header {
+            background-color: rgba(0, 0, 128, 1);
+            width: 50rem;
+            height: 8rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #nav {
+            background-color: rgba(0, 0, 128, 0.8);
+            width: 50rem;
+            height: 8rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #main{
+            width: 50rem;
+            height: 30rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #side_left {
+            background-color: rgba(0, 0, 128, 0.7);
+            width: 20rem;
+            height: 30rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #side_right {
+            background-color: rgba(0, 0, 128, 0.7);
+            width: 20rem;
+            height: 30rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #contents {
+            background-color: rgba(0, 0, 128, 0.6);
+            width: 50rem;
+            height: 30rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #footer {
+            background-color: rgba(0, 0, 128, 0.5);
+            width: 50rem;
+            height: 8rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="wrapper">
+        <div id="header">header</div>
+        <div id="nav">nav</div>
+        <div id="main">
+        <div id="side_left">side_left</div>
+        <div id="contents">contents</div>
+        <div id="side_right">side_right</div>
+        </div>
+        <div id="footer">footer</div>
+    </div>
+</div>
+</body>
+
+</html>
