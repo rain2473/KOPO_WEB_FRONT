@@ -1,0 +1,1 @@
+{"version":3,"sourceRoot":"","sources":["styles.scss"],"names":[],"mappings":";AAAA","sourcesContent":["/* 부트스트랩 적용 */\n@import \"bootstrap.scss\";\n\n@import \"main.scss\";"],"file":"styles.css"}
