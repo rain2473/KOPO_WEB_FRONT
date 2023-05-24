@@ -1,0 +1,25 @@
+<div class="rollingbanner">
+    <div class="wrap">
+        <div class="roller original" id="roller1" style="left: -313px;">
+            <ul>
+                {% for book in site.data.book.posts %}
+                <li >
+                    <strong class="{{ book.name }}">
+                        {{ book.rank }}위 &nbsp;:&nbsp;
+                    </strong>
+                    <span>
+                        {{ book.name }}
+                    </span>
+                    <span class="status up"></span>
+                    <span>
+                        <em>
+                            {{ book.updown }}
+                        </em>
+                    </span>
+                    </span>
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+</div>
